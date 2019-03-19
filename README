@@ -1,0 +1,23 @@
+01	CREDITS
+---------------
+
+Pierre Betouin <pierre.betouin@security-labs.org> ( see AUTHORS file for more information )
+
+
+02	CONTRIBUTORS
+--------------------
+
+	* Frederic RAYNAL 	<pappy@security-labs.org>	http://www.security-labs.org
+	* Eric DETOISIEN	<valgasu@rstack.org>		http://valgasu.rstack.org
+
+
+03	INSTALLATION
+--------------------
+
+Refer to INSTALL file
+
+
+04	HOW TO USE IT
+---------------------
+
+Refer to EXAMPLES file in /docs directory

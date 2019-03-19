@@ -1,0 +1,28 @@
+WHAT DO YOU NEED TO COMPILE DNSA ?
+----------------------------------
+	* Libnet-NG  : http://www.security-labs.org/libnetng/
+	* Libpcap : http://www.tcpdump.org
+
+Compile and install them (make install) if you're root.
+
+
+HOW TO COMPILE SOURCES ?
+------------------------
+	./configure --with-libnet=PATH_TO_LIBNET-NG
+IMPORTANT : if you want to have a *very* verbose output, you may enable debug specifying --enable-debug option
+
+Examples of configure applications :
+------------------------------------
+	# Normal use :
+	./configure --with-libnet=/usr/local/libnet-ng/
+	
+	# Debug mode : (need Electric-fence)
+		./configure --with-libnet=/usr/local/libnet/ --with-ldflags=-lefence --enable-debug
+
+	* make
+
+
+HOW TO INSTALL ?
+----------------
+Be sure run this command as root :
+	* make install
